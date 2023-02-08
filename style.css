@@ -1,0 +1,126 @@
+body {
+    margin: 0; /*  ESPAÇO DO PARAGRAFO*/
+    padding-top: 800px; /* ESSA CONFIGURAÇÃO É PARTE DA COR NO QUADRADO*/
+    text-align: center;
+}
+
+
+.profile {  /* LEMBRANDO QUE CHAMAMOS PELO PONTO(.)*/
+    border-radius: 50%;  /* A IMAGEM DO PERFIL AQUI ESTOU PEDINDO REDONDA*/
+}
+
+
+#welcome {
+    position: absolute; /* AQUI ESTOU DIVINDO A TELA COLORIDA COM A ESCRITA */
+    bottom: 0; /*O DETALHE VERDE FICA MENOR */
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);  /*ESCOLHE O DETALHE DAS CORES */
+    display: table; /* POSIÇÃO DA FOTO COLOCA FLEX PRA NOÇAO*/
+    width: 100%;  /*DIREITA E ESQUERDA */
+    height: 100%;
+}
+
+
+h1 {
+
+
+    font-size: 40px;  /*  TAMANHO DA LETRA*/
+    font-family: sans-serif; /* ESTILO DA LETRA*/
+    font-weight: 300; /*estilo da fonte na parte do oi */
+  
+
+}
+
+
+#name {
+    font-size: 50px; /*aqui é o tamanho da letra, da parte eu sou... */
+    font-family: cursive; /*estilo da letra */
+
+
+}
+
+
+h2 {
+    font-size: 30px; /* aqui é o tamanho da letra eu sou o fundador lembrar de olhar no index quem é h2*/
+    font-weight: 300; /* acesse o site para ter noçao https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-weight */
+    font-family: monospace; /* estilo da fonte*/
+}
+
+
+#bio {
+    font-family:  cursive;  /*quem esta na bio , toda a escrita altera a font e a letra tamanho */
+    padding: 50px; /* margin estilo*/
+    margin-top: 100px;
+ 
+}
+
+
+.line { /* quem esta na aqui ?*/
+    height: 6px;
+    background-color: #42f5ef;  /* quem esta na aqui  coloque essa cor ou escolhe no color pick #f54251*/
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+.parallax-inner {  /* quem esta na aqui ? estamos usando uma div e dividindo em
+    blocos a celulas alinhadas verticalmente no meio*/
+
+
+    display:table-cell;
+    vertical-align: middle;
+}
+.menu{/* quem esta na aqui ? A LISTA  
+    */
+    list-style: none;/*  O list-style (estilo da lista) é definido como a propriedade 'list-style: none' para
+    evitar marcadores.*/
+    position: fixed;/* A posição é fixa, o que significa que a posição permanecerá fixa em relação à
+    janela do navegador. Isso significa que, ao rolar, o menu rola com o navegador.*/
+    top: 0px;/*margem superior
+    como ‘top */  
+    z-index:10;/*à sobreposição ou sobreposição de elementos html */
+    cursor:pointer;/* O cursor deve parecer clicável para que seja definido como "pointer".*/
+    width: 100%;
+    background-color: aqua;
+    margin-top: 0px;
+}
+
+
+
+
+.links{
+    display: inline;/*‘float left’ significa ordenar os itens da esquerda. Você pode virar os itens do menu
+    para a direita configurando para ‘float right’.
+     */
+    padding-top: 0px;/*Padding é apenas para fornecer espaçamento interno entre os itens do menu */
+    padding-left: 9px;/* */
+    padding-right: 9px;/* */
+    padding-bottom: 5px;/* */
+    font-family: fantasy;/* Damos o estilo ao texto dos links, fornecendo font-family: fantasy e font-size:
+    20px.
+     */
+    font-size: 20px;/* */
+    
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;/* text-decoration irá remover o sublinhado da tag âncora.
+    */
+}
+.ancora{
+    color: blue;
+    height: 20px;
+    font-size: 100px;
+
+}
+a h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A vida de Neymar</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS É UMA FOLHA DE ESTILO  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Roboto:wght@300&display=swap" rel="stylesheet">  
+</head>
+
+
+<body>
+       <!-- vincular os itens de menu a essas seções que acabamos de criar em
+nossa página.
+Para vincular uma parte do documento a outra ou para conectar dois sites diferentes,
+podemos usar a tag <a>.  -->
+
+<center>
+    <ul class="menu">
+        <li class="links"><a href="#welcome">INÍCIO</a></li>
+        <li class="links"><a href="#videos">VÍDEOS</a></li>
+        <li class="links"><a href="#work">CARREIRA</a></li>
+        <li class="links"><a href="#articles">ARTIGOS</a></li>
+        <li class="links"><a href="#media">MIDIAS</a></li>
+    </ul>
+</center>
+    
+    <!-- CRIAMOS 2 SESSOES   -->
+    <!-- sessão 1: welcome  Seção 1: id =welcome que tem uma imagem de perfil e diz
+        'Eu sou Tim Berners Lee. Sou o fundador da www: World Wide Web '. Esta seção tem uma tag div
+        para elementos de espaço como imagens, h1 e h2, um após o outro. section e div têm um nome de
+        classe separado. Queremos que o CSS seja aplicado para sobrepor div e section.  -->
+    <section id="welcome" class="parallax-container">
+        <div class="parallax-inner">
+            <img id="imagem"src="neymar (1).jpg" class="profile" />
+            <h1> Eu sou <br><span id="name">Neymar Jr</span></h1>
+            <h2> Eu sou o camisa 10 da seleção brasileira </h2>
+        </div>
+    </section>
+
+
+
+
+<!-- sessão 1: bio   A seção "bio" é uma breve biografia.
+     Há uma tag "div" com a linha de classe para fornecer um pequeno sublinhado
+      entre o Oi e a bio. O texto bio está entre a tag
+      do parágrafo. -->
+    <section id="bio">
+        <h1>Oi!</h1>
+        <div class="line"></div>
+        <p>Neymar (1992) é um futebolista brasileiro, considerado um dos maiores da história. Ganhou diversos títulos jogando pelo Santos Futebol Clube, onde iniciou sua carreira aos 11 anos de idade.<br>
+
+            Sua posição é atacante, atuando como ponta-esquerda. Atualmente Neymar joga no clube francês Paris Saint-Germain, onde tem contrato até 2027.<br>
+       <br>Neymar da Silva Santos Júnior nasceu em Mogi das Cruzes, São Paulo, o dia 05 de fevereiro de 1992. Filho de Neymar da Silva Santos e de Nadine Santos,
+             com 11 anos de idade já chamava a atenção<br> de especialistas de futebol. Nessa época, jogava na equipe de futebol de salão da Portuguesa Santista.</p> 
+    </section>
+    <section id="videos">
+        <h1>Vídeos</h1>
+        <div class="line"></div><!-- CRIAMOS A SESSAO VIDEO   -->
+        <br>
+        <!--INCORPORAÇÃO YOU TUBE  -->
+        <iframe width="900" height="500" src="https://www.youtube.com/embed/Dh79bDrxgHw" title="YouTube video player" frameborder="100" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+           
+        <br><!-- QUEBRA DE LINHA   -->
+        <br>
+        
+    </section>
+<!-- CRIAMOS A SESSÃO TRABALHOS   -->
+    <section id="work">
+        <h1>carreira</h1>
+        <div class="line"></div>
+        <!-- INCORPORAMOS UM LINK DE URL  -->
+        <iframe width="900" height="1000" src="https://pt.wikipedia.org/wiki/Neymar"
+            frameborder="0"></iframe>
+    </section>
+
+
+
+
+<!-- CRIAMOS A SESSÃO ESCRITOS   -->
+    <section id="articles">
+        <h1>Artigos</h1>
+        <div class="line"></div>
+        <!--  Nesta seção, usamos a tag <a>, que é chamada de tag âncora, que conecta uma página
+html a outra.
+-target="_blank" : Abre o documento vinculado em uma nova janela ou guia
+Se não adicionar nada ao atributo target, o link será aberto na mesma aba, que a mesma
+coisa que target="_self"
+target="_self":Abre o documento vinculado no mesmo quadro em que foi clicado  -->
+        <a href="https://www.suno.com.br/tudo-sobre/neymar/" target="_blank">Neymar: conheça a trajetória do craque brasileiro</a>
+        <br>
+        <!--    -->
+        <a href="https://www.espn.com.br/futebol/artigo/_/id/10574578/como-neymar-virou-uma-superestrela-mundial-que-quase-nenhum-clube-parece-e-pode-querer"
+            target="_blank">Como Neymar virou uma superestrela mundial que quase nenhum clube parece (e pode) querer
+        </a>
+    </section>
+    <section id="media">
+        <h1>Mídias Sociais</h1>
+        <div class="line"></div>
+        <a class="ancora"href="https://www.instagram.com/neymarjr/" target="_blank">
+            <i class="fa fa-instagram"></i><h2>@neymarjr</h2>
+        </a>
+        <a class="ancora"href="https://www.facebook.com/neymarjr/?locale=pt_BR" target="_blank">
+            <i class="fa fa-facebook-square"></i><h2>Neymar Jr.</h2>
+        </a>
+        <a class="ancora" href="https://twitter.com/neymarjr" target="_blank">
+            <i class="fa fa-twitter-square"></i><h2>@neymarjr</h2>
+        </a>
+    </section>
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
+
+
+
+
